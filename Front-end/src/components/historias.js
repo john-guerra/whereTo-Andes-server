@@ -18,8 +18,9 @@ class Historias extends Component {
             )
         }
         else {
-            return (
-              <div></div>
+            return (                
+                //john-guerra: Acá podrían colocar que el componente está cargando por si aún no recibe los datos
+              <div>Cargando</div>
             )
         }
 
